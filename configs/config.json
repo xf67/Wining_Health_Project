@@ -1,0 +1,15 @@
+{
+  "exp_name":"EcgResNet34",
+  "type": "Pipeline1D",
+  "model": "EcgResNet34",
+  "om_model_path": "./experiments/EcgResNet34/checkpoints/ecg4096.om",
+  "ecg_data": "./experiments/data/100",
+
+  "json": "data/val.json",
+  "mapping_json": "data/class-mapper.json",
+  "num_classes": 8,
+
+  "batch_size": 4096,
+  "num_workers": 4,
+  "exp_dir" : "experiments/"
+}
